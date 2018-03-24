@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Bokeh Plot</title>
+        
+<link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-0.12.10.min.css" type="text/css" />
+        
+<script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-0.12.10.min.js"></script>
+<script type="text/javascript">
+    Bokeh.set_log_level("info");
+</script>
+        <style>
+          html {
+            width: 100%;
+            height: 100%;
+          }
+          body {
+            width: 90%;
+            height: 100%;
+            margin: auto;
+          }
+        </style>
+    </head>
+    <body>
+        
+        <div class="bk-root">
+            <div class="bk-plotdiv" id="b26d0e0c-cb4e-46dc-bb1b-b57c32b89dd1"></div>
+        </div>
+        
+        <script type="text/javascript">
+            (function() {
+          var fn = function() {
+            Bokeh.safely(function() {
+              (function(root) {
+                function embed_document(root) {
+                  var docs_json = {"10924381-d672-42d9-9d3e-0037f622088a":{"roots":{"references":[{"attributes":{"formatter":{"id":"aaf0d568-5b49-48d2-81bb-330707701cbf","type":"BasicTickFormatter"},"plot":{"id":"a2bc5d26-3b0e-4410-a464-3d9e287a2713","subtype":"Figure","type":"Plot"},"ticker":{"id":"2205e440-4c02-4d83-8a6c-1ea5a453c6ef","type":"BasicTicker"}},"id":"e1cd487a-7a90-4c2d-bb00-0d465661efde","type":"LinearAxis"},{"attributes":{},"id":"aaf0d568-5b49-48d2-81bb-330707701cbf","type":"BasicTickFormatter"},{"attributes":{},"id":"9d958afb-062f-4a2e-99ae-7c843c1f31b8","type":"SaveTool"},{"attributes":{"callback":null,"end":11587018.63},"id":"c88c6f43-6ab8-4588-9bfc-3643e77a2498","type":"Range1d"},{"attributes":{},"id":"beca2b81-406e-4f47-b65b-7b0f68b272d6","type":"ResetTool"},{"attributes":{"data_source":{"id":"93ab7404-df01-4cf6-bc0f-d2591b0c0b3d","type":"ColumnDataSource"},"glyph":{"id":"79409178-625e-4636-8dda-0055d585bdfc","type":"VBar"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"693f4df3-8354-4387-b962-e6f01d6d59cb","type":"VBar"},"selection_glyph":null,"view":{"id":"ee992cb3-d668-430a-af1c-34484ef283c4","type":"CDSView"}},"id":"4376b0db-5ce4-4ee5-851c-1a34080e31d5","type":"GlyphRenderer"},{"attributes":{"fill_color":{"value":"#1f77b4"},"line_color":{"value":"#1f77b4"},"top":{"field":"Total_NetPresentValue"},"width":{"value":0.9},"x":{"field":"Employment_Title"}},"id":"79409178-625e-4636-8dda-0055d585bdfc","type":"VBar"},{"attributes":{},"id":"21058381-9b85-4fa1-bb59-103719967dae","type":"LinearScale"},{"attributes":{},"id":"4c9d5349-a1ec-4286-a354-4e21cf39ff12","type":"CategoricalTicker"},{"attributes":{"source":{"id":"93ab7404-df01-4cf6-bc0f-d2591b0c0b3d","type":"ColumnDataSource"}},"id":"ee992cb3-d668-430a-af1c-34484ef283c4","type":"CDSView"},{"attributes":{"dimension":1,"plot":{"id":"a2bc5d26-3b0e-4410-a464-3d9e287a2713","subtype":"Figure","type":"Plot"},"ticker":{"id":"2205e440-4c02-4d83-8a6c-1ea5a453c6ef","type":"BasicTicker"}},"id":"7257ef03-a378-409b-97d9-f750076ec67b","type":"Grid"},{"attributes":{},"id":"31bf6236-0f6d-4f1c-b56d-4a17a9f0a099","type":"PanTool"},{"attributes":{},"id":"8beea0bc-9766-427c-9def-8c68841151b1","type":"CategoricalScale"},{"attributes":{},"id":"074b066d-fbae-45ba-9ed6-dda838ea87fa","type":"WheelZoomTool"},{"attributes":{"callback":null,"factors":["Anesthesiologists","Surgeons","Obstetricians and gynecologists","Chief executives","Oral and maxillofacial surgeons","Physicians and surgeons, all other","Orthodontists","Nurse anesthetists","Internists, general","Psychiatrists","Family and general practitioners","Computer and information systems managers","Architectural and engineering managers","Air traffic controllers","Marketing managers","Dentists, all other specialists","Dentists, general","Petroleum engineers","Airline pilots, copilots, and flight engineers","Pediatricians, general"]},"id":"a9b6159b-76e1-4b0e-8fa2-7de0f8667f43","type":"FactorRange"},{"attributes":{"plot":null,"text":"Net Present Value (2017)"},"id":"14384b0c-fc57-42a0-9e6d-539fec3f3452","type":"Title"},{"attributes":{},"id":"2205e440-4c02-4d83-8a6c-1ea5a453c6ef","type":"BasicTicker"},{"attributes":{"overlay":{"id":"11e96ac8-96a8-4e97-8a1b-6f66c8162cca","type":"BoxAnnotation"}},"id":"4019dd29-63f3-4608-b071-5324af56f3c4","type":"BoxZoomTool"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"top":{"field":"Total_NetPresentValue"},"width":{"value":0.9},"x":{"field":"Employment_Title"}},"id":"693f4df3-8354-4387-b962-e6f01d6d59cb","type":"VBar"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_scroll":"auto","active_tap":"auto","tools":[{"id":"31bf6236-0f6d-4f1c-b56d-4a17a9f0a099","type":"PanTool"},{"id":"074b066d-fbae-45ba-9ed6-dda838ea87fa","type":"WheelZoomTool"},{"id":"4019dd29-63f3-4608-b071-5324af56f3c4","type":"BoxZoomTool"},{"id":"9d958afb-062f-4a2e-99ae-7c843c1f31b8","type":"SaveTool"},{"id":"beca2b81-406e-4f47-b65b-7b0f68b272d6","type":"ResetTool"},{"id":"aacdb274-7ac9-4458-9293-55391078a40e","type":"HelpTool"}]},"id":"62e7f7fd-d5d2-4c3e-968c-2defe02fbd4c","type":"Toolbar"},{"attributes":{},"id":"aacdb274-7ac9-4458-9293-55391078a40e","type":"HelpTool"},{"attributes":{},"id":"839adef2-797f-45ed-8551-4f98928d4d26","type":"CategoricalTickFormatter"},{"attributes":{"below":[{"id":"57f69dc3-3fed-4400-b0a1-06e39207b85a","type":"CategoricalAxis"}],"left":[{"id":"e1cd487a-7a90-4c2d-bb00-0d465661efde","type":"LinearAxis"}],"plot_height":500,"renderers":[{"id":"57f69dc3-3fed-4400-b0a1-06e39207b85a","type":"CategoricalAxis"},{"id":"e3a4d80c-bc47-422c-91e5-67f08d62d8a0","type":"Grid"},{"id":"e1cd487a-7a90-4c2d-bb00-0d465661efde","type":"LinearAxis"},{"id":"7257ef03-a378-409b-97d9-f750076ec67b","type":"Grid"},{"id":"11e96ac8-96a8-4e97-8a1b-6f66c8162cca","type":"BoxAnnotation"},{"id":"4376b0db-5ce4-4ee5-851c-1a34080e31d5","type":"GlyphRenderer"}],"title":{"id":"14384b0c-fc57-42a0-9e6d-539fec3f3452","type":"Title"},"toolbar":{"id":"62e7f7fd-d5d2-4c3e-968c-2defe02fbd4c","type":"Toolbar"},"toolbar_location":null,"x_range":{"id":"a9b6159b-76e1-4b0e-8fa2-7de0f8667f43","type":"FactorRange"},"x_scale":{"id":"8beea0bc-9766-427c-9def-8c68841151b1","type":"CategoricalScale"},"y_range":{"id":"c88c6f43-6ab8-4588-9bfc-3643e77a2498","type":"Range1d"},"y_scale":{"id":"21058381-9b85-4fa1-bb59-103719967dae","type":"LinearScale"}},"id":"a2bc5d26-3b0e-4410-a464-3d9e287a2713","subtype":"Figure","type":"Plot"},{"attributes":{"formatter":{"id":"839adef2-797f-45ed-8551-4f98928d4d26","type":"CategoricalTickFormatter"},"plot":{"id":"a2bc5d26-3b0e-4410-a464-3d9e287a2713","subtype":"Figure","type":"Plot"},"ticker":{"id":"4c9d5349-a1ec-4286-a354-4e21cf39ff12","type":"CategoricalTicker"}},"id":"57f69dc3-3fed-4400-b0a1-06e39207b85a","type":"CategoricalAxis"},{"attributes":{"callback":null,"column_names":["Employment_Title","Total_NetPresentValue","index"],"data":{"Employment_Title":["Anesthesiologists","Surgeons","Obstetricians and gynecologists","Chief executives","Oral and maxillofacial surgeons","Physicians and surgeons, all other","Orthodontists","Nurse anesthetists","Internists, general","Psychiatrists","Family and general practitioners","Computer and information systems managers","Architectural and engineering managers","Air traffic controllers","Marketing managers","Dentists, all other specialists","Dentists, general","Petroleum engineers","Airline pilots, copilots, and flight engineers","Pediatricians, general"],"Total_NetPresentValue":{"__ndarray__":"w/UoVNcUZkGuR+GiT+9jQZqZmfGIFWBBH4XrgRjnVkFmZmZWlyRWQdejcI2NqlNBPQrXo1KDU0FxPQqnrNNSQVyPwkUHqVJBw/UoTPWAUkHhehQeHhlSQbgehcuVF1FBpHA96oj0UEFxPQo3SI9QQcP1KAw/gFBBMzMzE9o4UEFxPQonBSBQQVyPwrWcH1BBCtejgC4SUEEUrkeBzgtQQQ==","dtype":"float64","shape":[20]},"index":[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19]}},"id":"93ab7404-df01-4cf6-bc0f-d2591b0c0b3d","type":"ColumnDataSource"},{"attributes":{"grid_line_color":{"value":null},"plot":{"id":"a2bc5d26-3b0e-4410-a464-3d9e287a2713","subtype":"Figure","type":"Plot"},"ticker":{"id":"4c9d5349-a1ec-4286-a354-4e21cf39ff12","type":"CategoricalTicker"}},"id":"e3a4d80c-bc47-422c-91e5-67f08d62d8a0","type":"Grid"},{"attributes":{"bottom_units":"screen","fill_alpha":{"value":0.5},"fill_color":{"value":"lightgrey"},"left_units":"screen","level":"overlay","line_alpha":{"value":1.0},"line_color":{"value":"black"},"line_dash":[4,4],"line_width":{"value":2},"plot":null,"render_mode":"css","right_units":"screen","top_units":"screen"},"id":"11e96ac8-96a8-4e97-8a1b-6f66c8162cca","type":"BoxAnnotation"}],"root_ids":["a2bc5d26-3b0e-4410-a464-3d9e287a2713"]},"title":"Bokeh Application","version":"0.12.10"}};
+                  var render_items = [{"docid":"10924381-d672-42d9-9d3e-0037f622088a","elementid":"b26d0e0c-cb4e-46dc-bb1b-b57c32b89dd1","modelid":"a2bc5d26-3b0e-4410-a464-3d9e287a2713"}];
+              
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                }
+              
+                if (root.Bokeh !== undefined) {
+                  embed_document(root);
+                } else {
+                  var attempts = 0;
+                  var timer = setInterval(function(root) {
+                    if (root.Bokeh !== undefined) {
+                      embed_document(root);
+                      clearInterval(timer);
+                    }
+                    attempts++;
+                    if (attempts > 100) {
+                      console.log("Bokeh: ERROR: Unable to embed document because BokehJS library is missing")
+                      clearInterval(timer);
+                    }
+                  }, 10, root)
+                }
+              })(window);
+            });
+          };
+          if (document.readyState != "loading") fn();
+          else document.addEventListener("DOMContentLoaded", fn);
+        })();
+        
+        </script>
+    </body>
+</html>
